@@ -103,7 +103,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Bot Updates", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("Bot Updates", url="https://t.me/mrgbotrepair")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -195,8 +195,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/Mo_Tech_YT'),
-            InlineKeyboardButton('Video', url=f'{TUTORIAL}')
+            InlineKeyboardButton('Update Channel', url='https://t.me/Mrgbotrepair'),
+            InlineKeyboardButton('Video', url=f'https://t.me/MRGBOTREPAIR/9')
         ]
         ]
     await message.reply(text=f"<b>dev : <a href='https://t.me/youtuberyt54355'>mikey</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/MRGBOTREPAIR/10'>Click here</a>\nUpdate Channel : <a href='https://t.me/Mrgbotrepair'>Mrgbotrepair</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
